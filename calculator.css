@@ -1,0 +1,43 @@
+h1 {
+	text-align: center;
+}
+
+input[type=text]{
+	width: 205px;
+	overflow: auto;
+	border: solid 1px darkblue;
+}
+
+table {
+	text-align: center;
+}
+
+input[type=button]{
+	padding: 5px;
+	width: 50px;
+	overflow: auto;
+	height: auto;
+	background-color: cornsilk;
+	border: solid darkblue;
+	text-align: center;
+	border-radius: 5px;
+}
+
+form {
+	background-color: purple;
+	border: solid 5px orange;
+	padding: 10px;
+	margin: auto;
+	width: 270px;
+	text-align: center;
+	overflow: auto;
+}
+
+input[type=button]:hover {
+	cursor: pointer;
+	background-color: lightblue;
+}
+
+.container {
+	position: relative;
+}
