@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>401K Future Value Calculator</title>
+      	<script src="401K.js" type="text/javascript"></script>
+	</head>
+
+	<body>
+		<img src="FinancialInstitutionLogoImage.png">
+		<h1>401K Future Value Calculator</h1>
+
+		<table>
+			<tr>
+				<td>Yearly Investment ($)</td>
+				<td>
+					<select id="YI">
+						<option value=1000>$1,000</option>
+						<option value=2000>$2,000</option>
+						<option value=3000>$3,000</option>
+						<option value=4000>$4,000</option>
+						<option value=5000>$5,000</option>
+						<option value=6000>$6,000</option>
+						<option value=7000>$7,000</option>
+						<option value=8000>$8,000</option>
+						<option value=9000>$9,000</option>
+						<option value=10000>$10,000</option>
+					</select>
+				</td>
+			</tr>
+
+			<tr>
+				<td>Annual Interest Rate (%)</td>
+				<td>
+					<input type="text" id="AIR">
+				</td>
+			</tr>
+
+			<tr>
+				<td>Number of Years (#)</td>
+				<td>
+					<input type="text" id="NOY">
+				</td>
+			</tr>
+
+			<tr>
+				<td>Future Value ($)</td>
+				<td><section id="output">
+					
+				</section></td>
+			</tr>
+
+			<tr>
+				<td>
+					<button id="calculate">Calculate</button>
+				</td>
+				<td>
+					<button id="clear">Clear</button>
+				</td>
+			</tr>
+
+		</table>
+
+	</body>
+</html>
